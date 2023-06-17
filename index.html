@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Homepage Memes</title>
 </head>
+
 <body>
+  <header class='header'>
+    <div class="container">
+      <h1 class="header__title">JS Memes</h1>
+
+      <nav class="header__navigation">
+        <ul class="navigation">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#date">Date</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#regexp">Regexp</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
   <div class="container">
     <h1>Learn With Memes</h1>
 
@@ -19,11 +38,12 @@
       <div class="section__img">
         <img src="./assets/85-going-global.png" alt="meme about timezones in JS">
       </div>
-    
+
       <details class="section__details">
         <summary class="section__summary">Joke about Musk & Mars</summary>
         <p>Let's start with that innocent looking 3 characters: UTC. UTC means: Coordinated Universal Time.
-          UTC is the primary time standard by which the world regulates clocks and time. It is effectively a successor to
+          UTC is the primary time standard by which the world regulates clocks and time. It is effectively a successor
+          to
           Greenwich Mean Time (GMT).
           It also means, that the time we'd need to handle will be time zone dependent.</p>
         <img class="joke-img" src="./assets/musk-mars.png" alt="joke: mars - more timezones to support">
@@ -41,5 +61,14 @@
       </div>
     </section>
   </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>images are from &copy; <a href="https://www.monkeyuser.com/" target="_blank"
+          rel="noopener noreferrer">monkeyuser.com</a></p>
+    </div>
+  </footer>
+
 </body>
+
 </html>
