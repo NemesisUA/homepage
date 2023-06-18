@@ -34,6 +34,10 @@ body {
   justify-content: space-between;
 }
 
+.fv--center {
+  justify-content: center;
+}
+
 .resume {
   margin: 50px auto;
   border: 1px solid #f5f5f5;
@@ -69,6 +73,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    vertical-align: bottom;
 }
 
 .contact-info__block--center {
@@ -240,6 +245,15 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+
+h3 {
+  color: var(--text-decoration-color);
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
 }
 
 @media screen and (max-width: 576px) {
