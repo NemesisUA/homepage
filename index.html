@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage Memes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class='header'>
+    <div class="container flex-container">
+      <h1 class="header__title">JS Memes</h1>
+
+      <nav class="header__navigation">
+        <ul class="navigation">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#date">Date</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#regexp">RegExp</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <section id="date" class="section">
+      <h2 class="section__title">Date In JS</h2>
+      <h3 class="section__subtitle">Epoch date</h3>
+      <p>Essentially, handling the date in JavaScript means counting the milliseconds from this time:</p>
+      <p class="highlight">00:00:00 January 1, 1970</p>
+      <p>And that's all.</p>
+      <p>Well, if this is that simple, <i>what could go wrong?</i></p>
+
+      <details class="section__details">
+        <summary class="section__summary">Joke about Musk & Mars</summary>
+        <div class="flex-container">
+          <p>Let's start with that innocent looking 3 characters: UTC. UTC means: Coordinated Universal Time.
+            UTC is the primary time standard by which the world regulates clocks and time. It is effectively a successor
+            to
+            Greenwich Mean Time (GMT).
+            It also means, that the time we'd need to handle will be time zone dependent.</p>
+          <img class="joke-img" src="./assets/musk-mars.png" alt="joke: mars - more timezones to support">
+        </div>
+      </details>
+
+      <div class="section__img">
+        <img src="./assets/85-going-global.png" alt="meme about timezones in JS">
+      </div>
+    </section>
+
+    <section id="regexp" class="section">
+      <h2 class="section__title">Regexp In JS</h2>
+      <div class="section__img">
+        <img src="./assets/184-regex-explained.png" alt="meme about complexity of regexps">
+      </div>
+      <h3 class="section__subtitle">Parts of a regex</h3>
+      <div class="section__img">
+        <img src="./assets/regexp-structure.png" alt="regexp sturcture">
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>images pasted from &copy; <a href="https://www.monkeyuser.com/" target="_blank"
+          rel="noopener noreferrer">monkeyuser.com</a></p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
