@@ -247,6 +247,11 @@ body {
   color: var(--secondary-text-color);
 }
 
+h3 {
+  color: var(--text-decoration-color);
+  margin: 10px 0;
+}
+
 @media screen and (max-width: 576px) {
 
   .main-info,
